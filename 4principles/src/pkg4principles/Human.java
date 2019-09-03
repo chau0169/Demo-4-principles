@@ -9,7 +9,7 @@ package pkg4principles;
  *
  * @author Crystal
  */
-public class Human {
+public class Human extends Animal {
     private String name;
     private int age;
     private boolean gender;
@@ -46,6 +46,17 @@ public class Human {
     public void setGender(boolean gender) {
         this.gender = gender;
     }
+
+    @Override
+    public String scream() {
+        return "bbb"; //To change body of generated methods, choose Tools | Templates.
+    }
+
+    
+    
+    
+    
+    
     
     
 }

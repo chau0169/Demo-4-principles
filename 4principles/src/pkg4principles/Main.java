@@ -23,7 +23,9 @@ public class Main {
      Human human = new Human();
      m.setAge(5);
      
-        // TODO code application logic here
+      human.scream();
+      System.out.print(human.scream());
+      human.move();
     }
     
 }
