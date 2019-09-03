@@ -10,11 +10,19 @@ package pkg4principles;
  * @author Crystal
  */
 public class Main {
+    private Contact contact;
+    
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
+        Contact m = new Contact();
+        
+     Human human = new Human();
+     m.setAge(5);
+     
         // TODO code application logic here
     }
     
